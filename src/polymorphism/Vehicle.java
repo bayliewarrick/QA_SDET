@@ -1,26 +1,24 @@
 package polymorphism;
 
 public abstract class Vehicle {
-	// Attribute
-	private boolean hasTires;
+	
+
+	private boolean hasGas;
 	private int doors;
 	private String manufacturer;
 	private String model;
 	
-	// Constructor
+
 	public Vehicle(String manufacturer, String model, int doors) {
 		this.manufacturer = manufacturer;
 		this.model = model;
 		this.doors = doors;
-		this.hasTires = true;
+		this.hasGas = true;
 		
 	}
 	
-	// Methods
-	
-	
 	public boolean hasTires() {
-		return hasTires;
+		return hasGas;
 	}
 	
 	public int getDoors() {
