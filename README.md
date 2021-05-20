@@ -1,2 +1,2 @@
 # QA_SDET
-SDET Training course lead by QA.
+SDET Training course led by QA.
