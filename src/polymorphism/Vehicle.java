@@ -17,7 +17,7 @@ public abstract class Vehicle {
 		
 	}
 	
-	public boolean hasTires() {
+	public boolean hasGas() {
 		return hasGas;
 	}
 	
@@ -31,6 +31,12 @@ public abstract class Vehicle {
 	
 	public String getModel() {
 		return model;
+	}
+
+	@Override
+	public String toString() {
+		return "Vehicle [hasGas=" + hasGas + ", doors=" + doors + ", manufacturer=" + manufacturer + ", model=" + model
+				+ "]";
 	}
 	
 	

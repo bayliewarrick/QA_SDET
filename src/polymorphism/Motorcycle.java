@@ -18,6 +18,11 @@ public class Motorcycle extends Vehicle {
 	public boolean getSaddleBags() {
 		return hasSaddleBags;
 	}
-	
 
+	@Override
+	public String toString() {
+		return "Motorcycle [hasSaddleBags=" + hasSaddleBags + ", hasMirrors=" + hasMirrors + "]";
+	}
+	
+	
 }

@@ -15,7 +15,7 @@ public class Airplane extends Vehicle {
 		return isCommercialVehicle;
 	}
 	
-	public int wingspan() {
+	public double wingspan() {
 		return wingspan;
 	}
 	
